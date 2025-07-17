@@ -4,12 +4,44 @@ body {
     background-color: #FFFFFF;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+header .container {
+    display: flex;
 }
 
 .studio-name {
@@ -20,10 +52,23 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 15px;
+    margin-right: 76px;
 }
 
 .accent {
     color: #2E2F42;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+
 }
 
 .nav-item {
@@ -37,6 +82,10 @@ a {
 .nav-item:hover,
 .nav-item:focus {
     color: #404BBF;
+}
+
+.contacts-list {
+    display: flex;
 }
 
 .contacts {
@@ -67,6 +116,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    width: 496px;
 }
 
 .main-page-button {
@@ -83,6 +133,10 @@ a {
 .main-page-button:hover,
 .main-page-button:focus {
     background: #404BBF;
+}
+
+.benefits-list {
+    display: flex;
 }
 
 .benefits-title {
@@ -103,6 +157,10 @@ a {
 
 .team {
     background: #F4F4FD;
+}
+
+.team-list {
+    display: flex;
 }
 
 .team-title {
@@ -137,6 +195,11 @@ a {
     color: #434455;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .portfolio-title {
     text-transform: capitalize;
     font-weight: 700;
@@ -163,6 +226,12 @@ a {
     color: #434455;
 }
 
+.portfolio-container {
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+}
+
 .footer {
     background: #2E2F42;
 }
@@ -173,6 +242,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
+    padding-left: 15px;
 }
 
 .accent-footer {
