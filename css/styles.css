@@ -36,6 +36,11 @@ a {
     padding: 0 15px;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 header {
     border-bottom: 1px solid #E7E9FC;
 }
@@ -68,6 +73,7 @@ nav {
 
 .nav-list {
     display: flex;
+    gap: 40px;
 
 }
 
@@ -86,6 +92,7 @@ nav {
 
 .contacts-list {
     display: flex;
+    gap: 40px;
 }
 
 .contacts {
@@ -105,8 +112,9 @@ nav {
     color: #404BBF;
 }
 
-.main-page {
+.section-main-page {
     background: #2E2F42;
+    padding: 188px 472px 188px 472px;
 }
 
 .main-page-title {
@@ -116,7 +124,8 @@ nav {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    width: 496px;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .main-page-button {
@@ -128,6 +137,10 @@ nav {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
 }
 
 .main-page-button:hover,
@@ -155,7 +168,7 @@ nav {
     color: #434455;
 }
 
-.team {
+.section-team {
     background: #F4F4FD;
 }
 
